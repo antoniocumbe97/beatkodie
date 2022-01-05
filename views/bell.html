@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <title>BeatKODIE</title>
+</head>
+
+<body>
+
+  <header class="sticky-top header__bell">
+    <div class="title">Notifications</div>
+    <nav class="toggle">
+      <a href="/views/bell.html" class="active">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+      </a>
+
+      <a href="/views/cart.html">
+        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+      </a>
+      
+      <a href="">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+    </nav>
+  </header>
+  
+  <main class="content__bell">
+    <span class="content__bell__without">
+      Empty!
+    </span>
+  </main>
+
+  <footer class="fixed-bottom">
+    <div class="player px-1">
+      <span class="close fa fa-times" aria-hidden="true"></span>
+      <div class="player__cover">
+        <img src="" alt="">
+      </div>
+      <div class="player__controllers">
+        <span class="player__controllers__play" id="play"><i class="fa fa-play-circle" aria-hidden="true" ></i></span>
+        <span class="player__controllers__pause" id="pause"><i class="fa fa-pause-circle" aria-hidden="true" ></i></span>
+        <div class="player__controllers__progress">
+          <div class="player__controllers__progress__background">
+            <div class="player__controllers__progress__current" id="progress"></div>
+          </div>
+          <span class="player__controllers__progress__time" id="time"></span>
+        </div>
+        <span class="player__controllers__next" id="next"><i class="fa fa-forward" aria-hidden="true"></i></span>
+        <span class="player__controllers__like" id="like"><i class="fa fa-star" aria-hidden="true"></i></span>
+      </div>
+    </div>
+    <nav class="footer">
+      <a href="/index.html" class="active">
+        <img src="/assets/img/Home.png" alt="Home" style="width: 22px;">
+        <span>Home</span>
+      </a>
+      
+      <a href="/views/search.html">
+        <img src="/assets/img/Search.png" alt="Search" style="width: 22px;">
+        <span>Search</span>
+      </a>
+      
+      <a href="">
+        <img src="/assets/img/Library.png" alt="Library" style="width: 22px;">
+        <span>Library</span>
+      </a>
+
+      <a href="">
+        <img src="/assets/img/Perfil.png" alt="Profile" style="width: 22px;">
+        <span>Profile</span>
+      </a>
+    </nav>
+  </footer>
+
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/assets/js/popper.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+
+  <script src="/assets/js/all.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+
+</html>
