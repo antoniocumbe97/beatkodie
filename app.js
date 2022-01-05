@@ -1,7 +1,7 @@
 const costumPlayer = document.querySelector('.player');
-const btnPause = document.querySelector('#pause');
-const btnPlay = document.querySelector('#play');
-const btnNext = document.querySelector('#next');
+const btnPause = document.getElementById('pause');
+const btnPlay = document.getElementById('play');
+const btnNext = document.getElementById('next');
 const time = document.getElementById('time');
 const progress = document.getElementById('progress');
 
