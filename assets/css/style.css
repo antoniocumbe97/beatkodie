@@ -68,7 +68,6 @@ header .logo img{
     margin-top: 4px;
 }
 
-
 .cards{
     margin: 10px;
 }
@@ -300,4 +299,50 @@ header .logo img{
     top: -100px;
     left: -300;
     z-index: -9999;
+}
+
+
+
+/*Sign-In && Sign-Up*/
+.content__login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content__login__logo h4{
+    color: white;
+    margin-top: 10px;
+    font-size: medium;
+}
+.content__login__form label{
+    color: white;
+}
+.inpuForm{
+    background-color: #000D13;
+    color: rgba(255, 255, 255, 0.8);
+}
+.selectForm{
+    color: rgba(255, 255, 255, 0.8);
+    padding: .25rem .5rem;
+    font-size: .875rem;
+}
+.inpuForm:focus{
+    background-color: #000D13;
+    color: white;
+    border-color: #ff0f0e;
+}
+.content__login__form  #BtnCriarConta{
+    background-color: #ff0f0e;
+    color: white;
+}
+.form__link{
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    padding-bottom: 10px;
+}
+.form__link a{
+    font-weight: bold;
+    color: white;
 }
