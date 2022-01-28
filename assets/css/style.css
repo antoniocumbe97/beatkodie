@@ -154,6 +154,7 @@ header .logo img{
 .footer a {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
 }
@@ -309,6 +310,9 @@ header .logo img{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.content__login__logo{
+    margin-top: 33px;
 }
 .content__login__logo h4{
     color: white;
